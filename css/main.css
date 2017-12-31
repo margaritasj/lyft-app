@@ -164,7 +164,7 @@
   font-weight: 700;
 }
 
-.fas {
+.fas.fa-angle-left{ 
   color: #ffffff;
   margin-left: 3rem;
 }
@@ -178,7 +178,7 @@ li>a>img {
   height: 2.2rem;
 }
 
-.fas .fa-minus {
+.fas.fa-minus {
   color: #000000;
 }
 
