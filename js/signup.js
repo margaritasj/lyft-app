@@ -39,4 +39,18 @@ $(document).ready(function () {
     }
   });
 
+  /* -------- Generar un numero aleatorio------- */
+  $('#btn-next').click(function () {
+    // numero excluido
+    var MAX = 1000;
+    // numero incluido
+    var MIN = 100;
+    var numRandom = Math.round(Math.random() * (MAX - MIN) + MIN);
+
+    window.localStorage.setItem('numberRandom', numRandom);
+    alert('LAB - ' + window.localStorage.getItem('numberRandom'));
+
+    return window.location.href = '../views/verify.html';
+  });
+
 });
