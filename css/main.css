@@ -173,11 +173,6 @@
   min-width: 1rem;
 }
 
-li>a>img {
-  width: 3rem;
-  height: 2.2rem;
-}
-
 .fas.fa-minus {
   color: #000000;
 }
@@ -190,7 +185,7 @@ li>a>img {
 .btn-effect:hover,
 .btn-effect:focus,
 .btn-effect:active {
-  background-color: #000000;
+  background-color: #ffffff;
   color: #ea0a8e;
   border: 0.3rem solid #ea0a8e;
 }
