@@ -1,12 +1,14 @@
 /* --------- reset --------- */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
- 
 }
 
+
 /* --------- index.html - splash--------- */
+
 .background {
   background-image: url("../assets/images/background-splash.png");
   height: 100vh;
@@ -82,20 +84,92 @@
 }
 
 
+/* --------- homepage.html --------- */
+
+.space-homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.backgroung-home {
+  background-image: url(../assets/images/background-1.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-top {
+  height: 12vh;
+}
+
+.logo-central {
+  height: 35vh;
+}
+
+.center-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: #ffffff;
+  border: 0.3rem solid #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.5rem;
+}
+
+.btn-transparent:hover,
+.btn-transparent:focus,
+.btn-transparent:active {
+  background-color: #ffffff;
+  color: #000000;
+  border: 0.3rem solid #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.5rem;
+}
+
+
 /* --------------- Medias queries ---------------*/
 
 @media (min-width: 768px) {
-  .flex-center{
-    display:flex;
-    align-items:center;
+  .flex-center {
+    display: flex;
+    align-items: center;
     margin-top: 20rem;
   }
 }
 
 @media (min-width: 992px) {
-
+  .btn-transparent {
+    font-size: 2rem;
+  }
+  .btn-transparent:hover,
+  .btn-transparent:focus,
+  .btn-transparent:active {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 1200px) {
-  
+  .logo-top {
+    height: 15vh;
+  }
+  .logo-central {
+    height: 45vh;
+  }
+  .btn-transparent {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  .btn-transparent:hover,
+  .btn-transparent:focus,
+  .btn-transparent:active {
+    font-size: 2.5rem;
+    margin: 0;
+  }
 }
