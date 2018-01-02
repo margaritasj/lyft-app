@@ -10,7 +10,7 @@ El siguiente proyecto es el desarrollo de una aplicación móvil Lyft se incluyo
 - Bootstrap v3
 - jQuery
 
-### 1 - Views
+## Views
 
   ![view-0](assets/images/view-1.png)   ![view-1](assets/images/view-2.png) 
   ![view-2](assets/images/view-3.1.png) ![view-3](assets/images/view-4.png) 
