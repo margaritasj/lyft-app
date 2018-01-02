@@ -190,6 +190,12 @@
   border: 0.3rem solid #ea0a8e;
 }
 
+/* --------- signup-html.html --------- */
+.outline-none {
+  outline: transparent;
+  border: 0;
+}
+
 /* --------------- Medias queries ---------------*/
 
 @media (min-width: 768px) {

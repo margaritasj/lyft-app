@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Lyft</title>
+  <!--Import Favicon-->
+  <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+  <!--Import Google Font-->
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <!--Import Icon Font-->
+  <link type="text/css" rel="stylesheet" href="../assets/icons/fontawesome-5.0.2/web-fonts-with-css/css/fontawesome-all.min.css">
+  <!--Import bootstrap.css-->
+  <link type="text/css" rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <!--Import main.css-->
+  <link type="text/css" rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <!-- Sign up email -->
+  <!-- Navbar-->
+  <nav class="navbar navbar-default color-violet">
+    <div class="container-fluid space">
+      <div class="row">
+        <div class="navbar-header">
+          <a class="navbar-brand" id="left">
+            <i class="fas fa-angle-left"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Sign up</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 class="text-center">Join now for free ride credit</h3>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Container-->
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 flex-center justify-center ">
+          <form class="container ">
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1">
+                <i class="fas fa-user"></i>
+              </span>
+              <div class="form-control">
+                <input class="col-xs-6 outline-none" id="name" type="text" placeholder="Name">
+                <input class="col-xs-6 outline-none" id="last-name" type="text" placeholder="Last name">
+              </div>
+            </div>
+            <div class="input-group checkbox">
+              <span class="input-group-addon" id="basic-addon1">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <div class="form-group">
+                <input class="col-xs-12 form-control" type="email" id="email" placeholder="   Email" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="checkbox text-center">
+              <label>
+                <input id="check" type="checkbox"> I agree to Lyft's
+                <span>
+                  <a class="alert-link" href="#">Terms of service </a>
+                </span>
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Advertencia-->
+    <div class="container margin-top">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 text-center">
+          <div class="alert alert-warning alert-dismissible" id="warning">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+            <i class="fas fa-exclamation-triangle"></i>
+            <strong> Warning!</strong> Los datos ingresados son incorrectos, por favor verifiquelos.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+          <div class="center-block margin-top">
+            <button class="btn btn-default btn-block btn-lg text-uppercase color-violet margin-top btn-effect" id="btn-next" type="button"
+              disabled="">next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--Import jQuery before bootstrap.js-->
+  <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <!--Import app.js-->
+  <script type="text/javascript" src="../js/signup-email.js"></script>
+</body>
+
+</html>
