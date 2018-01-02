@@ -45,7 +45,7 @@ $(document).ready(function () {
   $('#last-name').keyup(function () {
     var lastName = this.value;
     // test para realizar prueba si valor del input coincide con el patron . Devuelve verdadero o falso
-    if (usernameRegex.test(lastname)) {
+    if (usernameRegex.test(lastName)) {
       disabledButton2();
       return true;
     } else {
