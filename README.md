@@ -12,4 +12,6 @@ El siguiente proyecto es el desarrollo de una aplicación móvil Lyft se incluyo
 
 ### 1 - Views
 
-![view-1](assets/images/view-2.png) ![view-2](assets/images/view-3.1.png)
+![view-0](assets/images/view-1.png) ![view-1](assets/images/view-2.png) ![view-2](assets/images/view-3.1.png)
+![view-3](assets/images/view-4.png) ![view-4](assets/images/view-5.png) ![view-5](assets/images/view-6.png)
+![view-6](assets/images/view-7.png)
