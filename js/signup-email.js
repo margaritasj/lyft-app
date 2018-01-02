@@ -72,8 +72,12 @@ $(document).ready(function () {
       $('#btn-next').prop('disabled', false);
     } else {
       $('#btn-next').prop('disabled', true);
-
     }
+  });
+
+  /* -------- Dirigir a la vista check------- */
+  $('#btn-next').click(function (event) {
+    window.location.href = 'check.html';
   });
 
 });
