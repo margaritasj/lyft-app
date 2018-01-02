@@ -4,6 +4,11 @@ $(document).ready(function () {
     window.location.href = '../views/signup.html';
   });
 
+  /* -------- Agregar en el alert el número que se ingreso ------ */
+  var codeCountry = window.localStorage.getItem('codeCountry');
+  var numPhone = window.localStorage.getItem('numberPhone');
+  $('#num-phone').html(codeCountry + ' ' + numPhone);
+
   /* -------- Deshabilitar elementos al cargar la vista------- */
   $('#c1').focus();
   $('#c2').prop('disabled', true);
@@ -55,5 +60,8 @@ $(document).ready(function () {
       return false;
     }
   });
+
+
+
 
 });

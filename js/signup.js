@@ -21,6 +21,8 @@ $(document).ready(function () {
   /* -------- Validando el input de num-phone------- */
   $('#num-phone').keyup(function () {
     var numPhone = this.value;
+
+    window.localStorage.setItem('numberPhone', numPhone);
     // /[0-9]/ --- expresion para aceptar solo numeros
     // \d --- encuentra un digito
     // d{n} --- coincide con la cantidad de digitos que inca n
