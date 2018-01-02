@@ -41,7 +41,7 @@ $(document).ready(function () {
     }
   });
 
-  /* -------- Generar un numero aleatorio------- */
+  /* -------- Generar un numero aleatorio ------- */
   $('#btn-next').click(function () {
     // numero excluido
     var MAX = 1000;

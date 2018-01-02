@@ -79,4 +79,16 @@ $(document).ready(function () {
     }
   });
 
+  /* -------- Generar un número aleatorio ------- */
+  $('#btn-resend').click(function () {
+    // numero excluido
+    var MAX = 1000;
+    // numero incluido
+    var MIN = 100;
+    var numRandom = Math.round(Math.random() * (MAX - MIN) + MIN);
+    window.localStorage.setItem('numberRandom', numRandom);
+
+    alert('LAB - ' + window.localStorage.getItem('numberRandom'));
+  });
+
 });
