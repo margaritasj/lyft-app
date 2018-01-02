@@ -61,7 +61,22 @@ $(document).ready(function () {
     }
   });
 
+  /* -------- Validando el código ingresado con el código generado ------- */
+  $('#warning').addClass('hidden');
+  $('#btn-next').click(function () {
+    var generatedToCode = window.localStorage.getItem('numberRandom');
+    var codeToVerify = $('#c1').val() + $('#c2').val() + $('#c3').val();
 
-
+    if (codeToVerify === generatedToCode) {
+      window.location.href = 'signup-email.html';
+      $('#info').addClass('show');
+      $('#info').removeClass('hidden');
+    } else {
+      $('#warning').addClass('show');
+      $('#warning').removeClass('hidden');
+      $('#info').removeClass('show');
+      $('#info').addClass('hidden');
+    }
+  });
 
 });
